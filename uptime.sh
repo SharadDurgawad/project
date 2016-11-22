@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "The system uptime is: "`uptime`
-a=5
-b=10
+a=$1
+b=$2
 let c=a+b
-echo "a + b = $c"
+echo "$1 + $2 = $c"
